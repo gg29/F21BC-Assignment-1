@@ -1,0 +1,106 @@
+% function evaluation | noise-free fitness - Fopt (7.948000000000e+01) | best noise-free fitness - Fopt | measured fitness | best measured fitness | x1 | x2...
+% restart: independent restart
+100 +1.079103950e+04 +6.714562703e+03 +1.087051950e+04 +6.794042703e+03
+ % restart: independent restart
+200 +1.237449390e+04 +6.714562703e+03 +1.245397390e+04 +6.794042703e+03
+ % restart: independent restart
+300 +7.254393103e+03 +5.648242703e+03 +7.333873103e+03 +5.727722703e+03
+ % function evaluation | noise-free fitness - Fopt (3.944800000000e+02) | best noise-free fitness - Fopt | measured fitness | best measured fitness | x1 | x2...
+% restart: independent restart
+100 +1.532173784e+04 +8.345366637e+03 +1.571621784e+04 +8.739846637e+03
+ % restart: independent restart
+200 +1.001079064e+04 +7.089331437e+03 +1.040527064e+04 +7.483811437e+03
+ % restart: independent restart
+300 +1.151691544e+04 +7.089331437e+03 +1.191139544e+04 +7.483811437e+03
+ % function evaluation | noise-free fitness - Fopt (-2.471100000000e+02) | best noise-free fitness - Fopt | measured fitness | best measured fitness | x1 | x2...
+% restart: independent restart
+100 +1.211459633e+04 +7.753050728e+03 +1.186748633e+04 +7.505940728e+03
+ % restart: independent restart
+200 +9.631994728e+03 +6.423607528e+03 +9.384884728e+03 +6.176497528e+03
+ % restart: independent restart
+300 +8.760341928e+03 +6.423607528e+03 +8.513231928e+03 +6.176497528e+03
+ % function evaluation | noise-free fitness - Fopt (-1.520400000000e+02) | best noise-free fitness - Fopt | measured fitness | best measured fitness | x1 | x2...
+% restart: independent restart
+100 +1.124265885e+04 +7.275785249e+03 +1.109061885e+04 +7.123745249e+03
+ % restart: independent restart
+200 +1.035993085e+04 +7.275785249e+03 +1.020789085e+04 +7.123745249e+03
+ % restart: independent restart
+300 +1.013683165e+04 +5.843490849e+03 +9.984791649e+03 +5.691450849e+03
+ % function evaluation | noise-free fitness - Fopt (-2.525000000000e+01) | best noise-free fitness - Fopt | measured fitness | best measured fitness | x1 | x2...
+% restart: independent restart
+100 +1.007206221e+04 +7.318078205e+03 +1.004681221e+04 +7.292828205e+03
+ % restart: independent restart
+200 +7.651207805e+03 +7.318078205e+03 +7.625957805e+03 +7.292828205e+03
+ % restart: independent restart
+300 +9.466268605e+03 +7.099609405e+03 +9.441018605e+03 +7.074359405e+03
+ % function evaluation | noise-free fitness - Fopt (2.230000000000e+00) | best noise-free fitness - Fopt | measured fitness | best measured fitness | x1 | x2...
+% restart: independent restart
+100 +8.880494573e+03 +7.508616173e+03 +8.882724573e+03 +7.510846173e+03
+ % restart: independent restart
+200 +1.380124977e+04 +6.641512173e+03 +1.380347977e+04 +6.643742173e+03
+ % restart: independent restart
+300 +1.062355217e+04 +6.641512173e+03 +1.062578217e+04 +6.643742173e+03
+ % function evaluation | noise-free fitness - Fopt (-1.308000000000e+01) | best noise-free fitness - Fopt | measured fitness | best measured fitness | x1 | x2...
+% restart: independent restart
+100 +1.038958805e+04 +7.456461651e+03 +1.037650805e+04 +7.443381651e+03
+ % restart: independent restart
+200 +8.531164051e+03 +7.220778451e+03 +8.518084051e+03 +7.207698451e+03
+ % restart: independent restart
+300 +1.137321685e+04 +7.220778451e+03 +1.136013685e+04 +7.207698451e+03
+ % function evaluation | noise-free fitness - Fopt (2.671600000000e+02) | best noise-free fitness - Fopt | measured fitness | best measured fitness | x1 | x2...
+% restart: independent restart
+100 +1.163304604e+04 +6.520761238e+03 +1.190020604e+04 +6.787921238e+03
+ % restart: independent restart
+200 +1.076331164e+04 +6.520761238e+03 +1.103047164e+04 +6.787921238e+03
+ % restart: independent restart
+300 +1.209379484e+04 +6.130860438e+03 +1.236095484e+04 +6.398020438e+03
+ % function evaluation | noise-free fitness - Fopt (3.710000000000e+00) | best noise-free fitness - Fopt | measured fitness | best measured fitness | x1 | x2...
+% restart: independent restart
+100 +1.031086865e+04 +7.250703850e+03 +1.031457865e+04 +7.254413850e+03
+ % restart: independent restart
+200 +1.207107345e+04 +6.818223850e+03 +1.207478345e+04 +6.821933850e+03
+ % restart: independent restart
+300 +9.212894250e+03 +6.818223850e+03 +9.216604250e+03 +6.821933850e+03
+ % function evaluation | noise-free fitness - Fopt (9.478000000000e+01) | best noise-free fitness - Fopt | measured fitness | best measured fitness | x1 | x2...
+% restart: independent restart
+100 +1.259937348e+04 +7.731639079e+03 +1.269415348e+04 +7.826419079e+03
+ % restart: independent restart
+200 +1.063594308e+04 +7.485899879e+03 +1.073072308e+04 +7.580679879e+03
+ % restart: independent restart
+300 +1.315806148e+04 +6.843807079e+03 +1.325284148e+04 +6.938587079e+03
+ % function evaluation | noise-free fitness - Fopt (2.339200000000e+02) | best noise-free fitness - Fopt | measured fitness | best measured fitness | x1 | x2...
+% restart: independent restart
+100 +9.858825083e+03 +7.253665083e+03 +1.009274508e+04 +7.487585083e+03
+ % restart: independent restart
+200 +1.393055308e+04 +7.253665083e+03 +1.416447308e+04 +7.487585083e+03
+ % restart: independent restart
+300 +9.658773883e+03 +7.253665083e+03 +9.892693883e+03 +7.487585083e+03
+ % function evaluation | noise-free fitness - Fopt (-6.092000000000e+01) | best noise-free fitness - Fopt | measured fitness | best measured fitness | x1 | x2...
+% restart: independent restart
+100 +1.169194773e+04 +5.392958934e+03 +1.163102773e+04 +5.332038934e+03
+ % restart: independent restart
+200 +1.131782933e+04 +5.392958934e+03 +1.125690933e+04 +5.332038934e+03
+ % restart: independent restart
+300 +9.581285334e+03 +5.392958934e+03 +9.520365334e+03 +5.332038934e+03
+ % function evaluation | noise-free fitness - Fopt (-1.948000000000e+01) | best noise-free fitness - Fopt | measured fitness | best measured fitness | x1 | x2...
+% restart: independent restart
+100 +1.095729482e+04 +6.726019617e+03 +1.093781482e+04 +6.706539617e+03
+ % restart: independent restart
+200 +1.052252842e+04 +6.726019617e+03 +1.050304842e+04 +6.706539617e+03
+ % restart: independent restart
+300 +1.275560842e+04 +6.479339617e+03 +1.273612842e+04 +6.459859617e+03
+ % function evaluation | noise-free fitness - Fopt (1.344700000000e+02) | best noise-free fitness - Fopt | measured fitness | best measured fitness | x1 | x2...
+% restart: independent restart
+100 +1.282904154e+04 +7.906531140e+03 +1.296351154e+04 +8.041001140e+03
+ % restart: independent restart
+200 +1.736699834e+04 +6.491915140e+03 +1.750146834e+04 +6.626385140e+03
+ % restart: independent restart
+300 +7.789665540e+03 +6.491915140e+03 +7.924135540e+03 +6.626385140e+03
+ % function evaluation | noise-free fitness - Fopt (4.453500000000e+02) | best noise-free fitness - Fopt | measured fitness | best measured fitness | x1 | x2...
+% restart: independent restart
+100 +1.079605748e+04 +7.552079882e+03 +1.124140748e+04 +7.997429882e+03
+ % restart: independent restart
+200 +1.093314708e+04 +6.492585482e+03 +1.137849708e+04 +6.937935482e+03
+ % restart: independent restart
+300 +1.193126228e+04 +6.492585482e+03 +1.237661228e+04 +6.937935482e+03
+ 

@@ -1,0 +1,226 @@
+<HTML>
+<HEAD>
+   <META NAME="description" CONTENT="COCO/BBOB figures by function">
+   <META NAME="keywords" CONTENT="COCO, BBOB">
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <TITLE> Sphere, Function, templateBBOBarticle </TITLE>
+   <SCRIPT SRC="sorttable.js"></SCRIPT>
+</HEAD>
+<BODY>
+<H1> Sphere Function
+</H1>
+<H2 style="color:red"> For generating figures use the --svg option. </H2>
+<H2> Expected number of <i>f</i>-evaluations to reach target </H2>
+<IMG SRC="ppfigdim_f001.svg"><IMG SRC="ppfigdim_f002.svg"><IMG SRC="ppfigdim_f003.svg"><IMG SRC="ppfigdim_f004.svg"><IMG SRC="ppfigdim_f005.svg"><IMG SRC="ppfigdim_f006.svg"><IMG SRC="ppfigdim_f007.svg"><IMG SRC="ppfigdim_f008.svg"><IMG SRC="ppfigdim_f009.svg"><IMG SRC="ppfigdim_f010.svg"><IMG SRC="ppfigdim_f011.svg"><IMG SRC="ppfigdim_f012.svg"><IMG SRC="ppfigdim_f013.svg"><IMG SRC="ppfigdim_f014.svg"><IMG SRC="ppfigdim_f015.svg"><IMG SRC="ppfigdim_f016.svg"><IMG SRC="ppfigdim_f017.svg"><IMG SRC="ppfigdim_f018.svg"><IMG SRC="ppfigdim_f019.svg"><IMG SRC="ppfigdim_f020.svg"><IMG SRC="ppfigdim_f021.svg"><IMG SRC="ppfigdim_f022.svg"><IMG SRC="ppfigdim_f023.svg"><IMG SRC="ppfigdim_f024.svg"><p/>
+ Expected number of f-evaluations (<span class="roman">ERT</span>, lines) to reach f<sub><span class="roman">opt</span></sub>+&#8710;f; median number of f-evaluations (+) to reach the most difficult target that was reached not always but at least once; maximum number of f-evaluations in any trial (<span style="color:#FF0000">&times;</span>); interquartile range with median (notched boxes) of simulated runlengths to reach f<sub><span class="roman">opt</span></sub>+&#8710;f; all values are divided by dimension and plotted as log<sub>10</sub> values versus dimension.         Shown is the <span class="roman">ERT</span>&nbsp;for targets just not reached by the artificial GECCO-BBOB-2009 best algorithm within the given budget k&times;<span class="roman">DIM</span>, where k is shown in the legend. Numbers above <span class="roman">ERT</span>-symbols indicate the number of trials reaching the respective target. The light thick line with diamonds indicates the respective best result from BBOB-2009 for the most difficult target. Slanted grid lines indicate a scaling with <span style="font-family:helvetica"><i>O</i></span>(<span class="roman">DIM</span>) compared to <span style="font-family:helvetica"><i>O</i></span>(1) when using the respective 2009 best algorithm.  <div class="p"><!----></div>
+<p/><p/><H2> ERT in number of function evaluations </H2>
+
+<p><b>5-D</b></p>
+<table>
+<thead>
+<tr>
+<th>#FEs/D</th>
+<td>0.5</td>
+<td>1.2</td>
+<td>3</td>
+<td>10</td>
+<td>50</td>
+<td>#succ</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th><b>f<sub>1</sub></b></th>
+<td><i>2.5e+1</i>:4.8</td>
+<td><i>1.6e+1</i>:7.6</td>
+<td><i>1.0e-8</i>:12</td>
+<td><i>1.0e-8</i>:12</td>
+<td><i>1.0e-8</i>:12</td>
+<td>15/15</td>
+</tr>
+<tr>
+<th></th>
+<td>1495 (1094)</td>
+<td>&infin;</td>
+<td>&infin;</td>
+<td>&infin;</td>
+<td>&infin; <i>500</i></td>
+<td>0/15</td>
+</tr>
+</table>
+<p><b>20-D</b></p>
+<table>
+<thead>
+<tr>
+<th>#FEs/D</th>
+<td>0.5</td>
+<td>1.2</td>
+<td>3</td>
+<td>10</td>
+<td>50</td>
+<td>#succ</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th><b>f<sub>1</sub></b></th>
+<td><i>2.5e+1</i>:4.8</td>
+<td><i>1.6e+1</i>:7.6</td>
+<td><i>1.0e-8</i>:12</td>
+<td><i>1.0e-8</i>:12</td>
+<td><i>1.0e-8</i>:12</td>
+<td>15/15</td>
+</tr>
+<tr>
+<th></th>
+<td>1495 (1094)</td>
+<td>&infin;</td>
+<td>&infin;</td>
+<td>&infin;</td>
+<td>&infin; <i>500</i></td>
+<td>0/15</td>
+</tr>
+<tbody>
+<tr>
+<th><b>f<sub>1</sub></b></th>
+<td><i>6.3e+1</i>:24</td>
+<td><i>4.0e+1</i>:42</td>
+<td><i>1.0e-8</i>:43</td>
+<td><i>1.0e-8</i>:43</td>
+<td><i>1.0e-8</i>:43</td>
+<td>15/15</td>
+</tr>
+<tr>
+<th></th>
+<td>&infin;</td>
+<td>&infin;</td>
+<td>&infin;</td>
+<td>&infin;</td>
+<td>&infin; <i>500</i></td>
+<td>0/15</td>
+</tr>
+</table>
+<!--pptableHtml-->
+<p/>
+ Expected running time (ERT in number of function evaluations) divided by the best ERT measured during BBOB-2009. The ERT and in braces, as dispersion measure, the half difference between 90 and 10%-tile of bootstrapped run lengths appear in the second row of each cell, the best ERT in the first. The different target &#8710;f-values are shown in the top row. #succ is the number of trials that reached the (final) target f<sub><span class="roman">opt</span></sub>+ 10<sup>&#8722;8</sup>. The median number of conducted function evaluations is additionally given in <i>italics</i>, if the target in the last column was never reached. <b>Bold</b> entries are statistically significantly better (according to the rank-sum test) compared to the best algorithm in BBOB-2009, with p = 0.05 or p = 10<sup>&#8722;k</sup> when the number k  &gt;  1 is following the &#8595; symbol, with Bonferroni correction by the number of functions.  <div class="p"><!----></div>
+<p/><p/><H2>  Empirical cumulative distribution functions (ECDF) </H2>
+<p><b>Separable functions in 5-D</b></p><div><IMG SRC="pprldistr_05D_separ.svg"><IMG SRC="ppfvdistr_05D_separ.svg"></div><p><b>Misc. moderate functions in 5-D</b></p><div><IMG SRC="pprldistr_05D_lcond.svg"><IMG SRC="ppfvdistr_05D_lcond.svg"></div><p><b>Ill-conditioned functions in 5-D</b></p><div><IMG SRC="pprldistr_05D_hcond.svg"><IMG SRC="ppfvdistr_05D_hcond.svg"></div><p><b>Multi-modal functions in 5-D</b></p><div><IMG SRC="pprldistr_05D_multi.svg"><IMG SRC="ppfvdistr_05D_multi.svg"></div><p><b>Weak structure functions in 5-D</b></p><div><IMG SRC="pprldistr_05D_mult2.svg"><IMG SRC="ppfvdistr_05D_mult2.svg"></div><p><b>All functions in 5-D</b></p><div><IMG SRC="pprldistr_05D_noiselessall.svg"><IMG SRC="ppfvdistr_05D_noiselessall.svg"></div><p><b>Separable functions in 20-D</b></p><div><IMG SRC="pprldistr_20D_separ.svg"><IMG SRC="ppfvdistr_20D_separ.svg"></div><p><b>Misc. moderate functions in 20-D</b></p><div><IMG SRC="pprldistr_20D_lcond.svg"><IMG SRC="ppfvdistr_20D_lcond.svg"></div><p><b>Ill-conditioned functions in 20-D</b></p><div><IMG SRC="pprldistr_20D_hcond.svg"><IMG SRC="ppfvdistr_20D_hcond.svg"></div><p><b>Multi-modal functions in 20-D</b></p><div><IMG SRC="pprldistr_20D_multi.svg"><IMG SRC="ppfvdistr_20D_multi.svg"></div><p><b>Weak structure functions in 20-D</b></p><div><IMG SRC="pprldistr_20D_mult2.svg"><IMG SRC="ppfvdistr_20D_mult2.svg"></div><p><b>All functions in 20-D</b></p><div><IMG SRC="pprldistr_20D_noiselessall.svg"><IMG SRC="ppfvdistr_20D_noiselessall.svg"></div><p/>
+ Empirical cumulative distribution functions (ECDF), plotting the fraction of trials with an outcome not larger than the respective value on the x-axis. Left subplots: ECDF of number of function evaluations (FEvals) divided by search space dimension D, to fall below f<sub><span class="roman">opt</span></sub>+&#8710;f where &#8710;f&nbsp;is the target just not reached by the GECCO-BBOB-2009 best algorithm within a budget of k&times;<span class="roman">DIM</span> evaluations, where k is the first value in the legend.      Legends indicate for each target the number of functions that were solved in at least one trial within the displayed budget.     Right subplots: ECDF of the best achieved &#8710;f for running times of 0.5D, 1.2D, 3D, 10D, 100D, 1000D,&hellip; function evaluations (from right to left cycling cyan-magenta-black...) and final &#8710;f-value (red), where &#8710;f&nbsp;and <span style="font-family:helvetica">Df</span> denote the difference to the optimal function value. Light brown lines in the background show ECDFs for the most difficult target of all algorithms benchmarked during BBOB-2009.  <div class="p"><!----></div>
+<p/><p/><H2> ERT loss ratios </H2>
+<IMG SRC="pplogloss_05D_noiselessall.svg"><IMG SRC="pplogloss_20D_noiselessall.svg">
+<p><b><i>f</i><sub>1</sub>&ndash;<i>f</i><sub>1</sub> in 5-D</b>, maxFE/D=100</p>
+<table class="sortable">
+<thead>
+<tr>
+<th>#FEs/D</td>
+<td>best</td>
+<td>10 %</td>
+<td>25 %</td>
+<td>med</td>
+<td>75 %</td>
+<td>90 %</td>
+</tr>
+</thead>
+<tfoot>
+<tr>
+<th>RL<sub>US</sub>/D</td>
+<td>1e2</td>
+<td>1e2</td>
+<td>1e2</td>
+<td>1e2</td>
+<td>1e2</td>
+<td>1e2</td>
+</tr>
+</tfoot>
+<tbody>
+<tr>
+<th sorttable_customkey="2.000000">2</th>
+<td sorttable_customkey="10.000000">10</td>
+<td sorttable_customkey="10.000000">10</td>
+<td sorttable_customkey="10.000000">10</td>
+<td sorttable_customkey="10.000000">10</td>
+<td sorttable_customkey="10.000000">10</td>
+<td sorttable_customkey="10.000000">10</td>
+</tr>
+<tr>
+<th sorttable_customkey="10.000000">10</th>
+<td sorttable_customkey="50.000000">50</td>
+<td sorttable_customkey="50.000000">50</td>
+<td sorttable_customkey="50.000000">50</td>
+<td sorttable_customkey="50.000000">50</td>
+<td sorttable_customkey="50.000000">50</td>
+<td sorttable_customkey="50.000000">50</td>
+</tr>
+<tr>
+<th sorttable_customkey="100.000000">100</th>
+<td sorttable_customkey="500.000000">5.0e2</td>
+<td sorttable_customkey="500.000000">5.0e2</td>
+<td sorttable_customkey="500.000000">5.0e2</td>
+<td sorttable_customkey="500.000000">5.0e2</td>
+<td sorttable_customkey="500.000000">5.0e2</td>
+<td sorttable_customkey="500.000000">5.0e2</td>
+</tr>
+<tr>
+<th sorttable_customkey="1000.000000">1e3</th>
+<td sorttable_customkey="4166.666667">4.2e3</td>
+<td sorttable_customkey="4166.666667">4.2e3</td>
+<td sorttable_customkey="4166.666667">4.2e3</td>
+<td sorttable_customkey="4166.666667">4.2e3</td>
+<td sorttable_customkey="4166.666667">4.2e3</td>
+<td sorttable_customkey="4166.666667">4.2e3</td>
+</tr>
+</tbody>
+</table>
+<p><b><i>f</i><sub>1</sub>&ndash;<i>f</i><sub>1</sub> in 20-D</b>, maxFE/D=25</p>
+<table class="sortable">
+<thead>
+<tr>
+<th>#FEs/D</td>
+<td>best</td>
+<td>10 %</td>
+<td>25 %</td>
+<td>med</td>
+<td>75 %</td>
+<td>90 %</td>
+</tr>
+</thead>
+<tfoot>
+<tr>
+<th>RL<sub>US</sub>/D</td>
+<td>20</td>
+<td>20</td>
+<td>20</td>
+<td>20</td>
+<td>20</td>
+<td>20</td>
+</tr>
+</tfoot>
+<tbody>
+<tr>
+<th sorttable_customkey="2.000000">2</th>
+<td sorttable_customkey="40.000000">40</td>
+<td sorttable_customkey="40.000000">40</td>
+<td sorttable_customkey="40.000000">40</td>
+<td sorttable_customkey="40.000000">40</td>
+<td sorttable_customkey="40.000000">40</td>
+<td sorttable_customkey="40.000000">40</td>
+</tr>
+<tr>
+<th sorttable_customkey="10.000000">10</th>
+<td sorttable_customkey="200.000000">2.0e2</td>
+<td sorttable_customkey="200.000000">2.0e2</td>
+<td sorttable_customkey="200.000000">2.0e2</td>
+<td sorttable_customkey="200.000000">2.0e2</td>
+<td sorttable_customkey="200.000000">2.0e2</td>
+<td sorttable_customkey="200.000000">2.0e2</td>
+</tr>
+</tbody>
+</table>
+<!--tables-->
+<p/>
+ <span class="roman">ERT</span>&nbsp;loss ratio versus the budget in number of f-evaluations divided by dimension. For each given budget <span class="roman">FEvals</span>, the target value f<sub><span class="roman">t</span></sub>&nbsp;is computed as the best target f-value reached within the budget by the given algorithm. Shown is then the <span class="roman">ERT</span>&nbsp;to reach f<sub><span class="roman">t</span></sub>&nbsp;for the given algorithm or the budget, if the GECCO-BBOB-2009 best algorithm reached a better target within the budget, divided by the best <span class="roman">ERT</span>&nbsp;    seen in GECCO-BBOB-2009 to reach f<sub><span class="roman">t</span></sub>. Line: geometric mean. Box-Whisker error bar: 25-75%-ile with median (box), 10-90%-ile (caps), and minimum and maximum <span class="roman">ERT</span>&nbsp;loss ratio (points). The vertical line gives the maximal number of function evaluations in a single trial in this function subset. See also the following figure for results on each function subgroup.  <div class="p"><!----></div>
+<p/><p/><p><b>Separable functions in 5-D and 20-D</b></p><div><IMG SRC="pplogloss_05D_separ.svg"><IMG SRC="pplogloss_20D_separ.svg"></div><p><b>Moderate functions in 5-D and 20-D</b></p><div><IMG SRC="pplogloss_05D_lcond.svg"><IMG SRC="pplogloss_20D_lcond.svg"></div><p><b>Ill-conditioned functions in 5-D and 20-D</b></p><div><IMG SRC="pplogloss_05D_hcond.svg"><IMG SRC="pplogloss_20D_hcond.svg"></div><p><b>Multi-modal functions in 5-D and 20-D</b></p><div><IMG SRC="pplogloss_05D_multi.svg"><IMG SRC="pplogloss_20D_multi.svg"></div><p><b>Weak structure functions in 5-D and 20-D</b></p><div><IMG SRC="pplogloss_05D_mult2.svg"><IMG SRC="pplogloss_20D_mult2.svg"></div><p/>
+ <span class="roman">ERT</span>&nbsp;loss ratios (see the previous figure for details). Each cross (<span style="color:#0000FF">+</span>) represents a single function, the line is the geometric mean.  <div class="p"><!----></div>
+<p/><p/>
+</BODY>
+</HTML>

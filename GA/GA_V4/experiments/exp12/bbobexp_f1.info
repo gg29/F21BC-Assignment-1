@@ -1,0 +1,18 @@
+funcId = 1, DIM = 2, Precision = 1.000e-08, algId = 'Sphere Function'
+% Multiple Dimensions, Crossover & Roulette Selection
+data_f1\bbobexp_f1_DIM2.dat, 1:204|1.4e+00, 2:204|2.4e+01, 3:204|1.4e+01, 4:204|1.8e+00, 5:204|4.5e+00, 41:204|2.0e+01, 42:204|3.8e+00, 43:204|2.2e+01, 44:204|2.6e+01, 45:204|1.1e+01, 46:204|1.2e+01, 47:204|1.6e+00, 48:204|4.9e+00, 49:204|2.1e+01, 50:204|2.1e+01
+funcId = 1, DIM = 3, Precision = 1.000e-08, algId = 'Sphere Function'
+% Multiple Dimensions, Crossover & Roulette Selection
+data_f1\bbobexp_f1_DIM3.dat, 1:204|1.9e+00, 2:204|3.8e+01, 3:204|1.5e+01, 4:204|1.8e+01, 5:204|1.3e+01, 41:204|2.1e+01, 42:204|1.6e+01, 43:204|3.4e+01, 44:204|1.5e+01, 45:204|2.6e+01, 46:204|2.1e+01, 47:204|3.6e+00, 48:204|4.9e+00, 49:204|2.1e+01, 50:204|2.2e+01
+funcId = 1, DIM = 5, Precision = 1.000e-08, algId = 'Sphere Function'
+% Multiple Dimensions, Crossover & Roulette Selection
+data_f1\bbobexp_f1_DIM5.dat, 1:204|1.3e+01, 2:204|5.4e+01, 3:204|3.8e+01, 4:204|3.3e+01, 5:204|1.8e+01, 41:204|3.0e+01, 42:204|3.4e+01, 43:204|4.9e+01, 44:204|3.1e+01, 45:204|4.5e+01, 46:204|2.9e+01, 47:204|1.4e+01, 48:204|9.8e+00, 49:204|3.9e+01, 50:204|1.8e+01
+funcId = 1, DIM = 10, Precision = 1.000e-08, algId = 'Sphere Function'
+% Multiple Dimensions, Crossover & Roulette Selection
+data_f1\bbobexp_f1_DIM10.dat, 1:204|2.5e+01, 2:204|8.9e+01, 3:204|7.7e+01, 4:204|4.0e+01, 5:204|4.9e+01, 41:204|6.5e+01, 42:204|6.0e+01, 43:204|7.3e+01, 44:204|3.6e+01, 45:204|6.6e+01, 46:204|4.7e+01, 47:204|4.8e+01, 48:204|3.0e+01, 49:204|6.4e+01, 50:204|6.8e+01
+funcId = 1, DIM = 20, Precision = 1.000e-08, algId = 'Sphere Function'
+% Multiple Dimensions, Crossover & Roulette Selection
+data_f1\bbobexp_f1_DIM20.dat, 1:204|8.4e+01, 2:204|1.5e+02, 3:204|1.2e+02, 4:204|6.9e+01, 5:204|7.2e+01, 41:204|1.1e+02, 42:204|8.7e+01, 43:204|1.0e+02, 44:204|9.6e+01, 45:204|1.1e+02, 46:204|7.6e+01, 47:204|9.5e+01, 48:204|9.4e+01, 49:204|1.2e+02, 50:204|1.3e+02
+funcId = 1, DIM = 40, Precision = 1.000e-08, algId = 'Sphere Function'
+% Multiple Dimensions, Crossover & Roulette Selection
+data_f1\bbobexp_f1_DIM40.dat, 1:408|1.7e+02, 2:408|2.6e+02, 3:408|1.9e+02, 4:408|1.9e+02, 5:408|1.3e+02, 41:408|2.1e+02, 42:408|1.8e+02, 43:408|2.3e+02, 44:408|1.8e+02, 45:408|2.0e+02, 46:408|1.5e+02, 47:408|1.8e+02, 48:408|1.9e+02, 49:408|2.5e+02, 50:408|2.3e+02
